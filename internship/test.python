@@ -1,0 +1,20 @@
+unformatted_gyroscope = open("gyroscope.csv", "r")
+gyroscope = unformatted_gyroscope.readlines()
+unformatted_accelerometer = open("accelerometer.csv", "r")
+accelerometer = unformatted_accelerometer.readlines()
+formatted_file = open("result.csv", "w")
+
+formatted_file.write("Acc_X,Acc_Y,Acc_Z,Gyro_X,Gyro_Y,Gyro_Z,Time(ms since epoch)\n")
+
+count = 0
+for line in accelerometer:
+	line = line.strip()
+	#remove the first 28 characters
+	line = line[38:]
+	if(not count ==0):
+		formatted_file.write(str(line) + str(gyroscope[count])[38:])
+	count+=1
+
+unformatted_gyroscope.close()
+unformatted_accelerometer.close()
+formatted_file.close()

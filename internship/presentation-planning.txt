@@ -1,0 +1,18 @@
+compared to the other internships thus far, my internship was a little differnet. it was structered almost like a research project project of sorts, and almost completely open-ended. we, as in me and emily, the other student in my internship, were assigned to find a new application for technology developed in a capstone project in VCU. VCU is a public college in downtown richmond.
+
+The original project focused on wheel-tracking technology, originally with the intent of tracking emergency vehicles. Emergency vehicles have more accidents than most vehicles, so having higher-precision tracking for them could be useful in preventing future accidents.
+
+The sensors placed on each wheel are made up of many other sensors, but we focused on two- the gyroscope and the accelerometer. 
+	gyroscope - measures the rotation of an object using coriolis force. when a mass moves in a rotating system, it experiences a force perpendicular to its access of rotation
+	accelerometer - measure g-force; measures acceleration as the name implies. there's a mass inside which moves when the sensors experiences acceleration
+
+	both sensors measure separate values in the x, y, and z axis, as we live in a 3 dimensional world. 
+
+	These sensors are used to track the way wheels move. With that data, we can predict the velocity of the behicle based on the rate of the wheel's rotation.  It's much more accurate than gps technology for tracking location. and this was intended to be used with emergency vehicles. 
+
+now, the wheeldynamic tool is all well and good, but the purpose of our internship was something entirely different. we were told to take the WheelDynamic tool and find some other application for it. our possibilities were endless.
+	list of possible ideas
+
+one thing i found helped a lot was having regular meetings with our mentor. we had difficulties with communication early in the internship, which definitely set us back a little bit. that was one of the most important lessons I learned. in a virtual internship like ours, it's much harder to communicate if you don't go out of your way to set times for meetings. emails simply aren't as efficient or good for clear communication.
+
+we eventually settled on using the technology to teach a physics lesson. the basic idea behind was that we'd take the IMU sensor and attach it to some sort of model car. then, students would push the car and use their own measured time and distance to calculate the average velocity, then use that to calculate kinetic and potential energy. then, they would compare their calculated values to 
